@@ -10,6 +10,12 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
+        "deploy": {
+          "builder": "@angular-devkit/build-angular:github-pages",
+          "options": {
+            "baseHref": "/angular_test-password-strength/"
+          }
+        },
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
