@@ -11,7 +11,7 @@
       "prefix": "app",
       "architect": {
         "deploy": {
-          "builder": "@angular-devkit/build-angular:github-pages",
+          "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "/angular_test-password-strength/"
           }
