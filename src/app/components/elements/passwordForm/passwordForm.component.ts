@@ -9,7 +9,7 @@ import { passСomplexity } from './passwordForm.directive';
 })
 
 export class PasswordFormComponent {
-  show = true;
+  show = false;
   form = new FormGroup({
     password: new FormControl('', {
       validators: [
