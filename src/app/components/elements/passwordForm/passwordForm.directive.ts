@@ -13,7 +13,7 @@ export function passСomplexity(): ValidatorFn {
     if (!control.value || control.value.length < 8) {
       return null;
     }
-console.log(control)
+
     const valueToCheck = value.replace(unwantedSymbol, '');
 
     switch (true) {
